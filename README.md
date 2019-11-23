@@ -8,7 +8,7 @@ This PHP package scrapes stats for a college football player from ESPN. Based of
 
 Via Composer:
 
-`composer require danabrey/cbs-ncaa-stats-scraper`
+`composer require danabrey/espn-ncaa-stats-scraper`
 
 ## Usage
 
