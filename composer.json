@@ -1,0 +1,30 @@
+{
+    "name": "danabrey/espn-ncaa-stats-scraper",
+    "description": "PHP package for scraping college football player stats from ESPN",
+    "type": "library",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dan Abrey",
+            "email": "danabrey@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "fabpot/goutte": "^3.2",
+        "symfony/serializer": "^4.3",
+        "symfony/property-access": "^4.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "DanAbrey\\ESPNNCAAStatsScraper\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    }
+}
